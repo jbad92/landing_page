@@ -10,9 +10,17 @@ body {
 /* NAVBAR  */
 
 .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border: 2px solid blanchedalmond;
     background-color:#1F2937;
     color: #fff;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
